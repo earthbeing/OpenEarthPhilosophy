@@ -8,35 +8,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: black;
-            color: #00FF00; /* Alien green color */
+            background: linear-gradient(to bottom, rgba(255,0,255,0.5), rgba(0,255,255,0.5)), url('your-image-path');
+            background-size: cover;
+            color: #00FF00; 
         }
 
         h1, h2 {
-            color: #00FF00; /* Alien green color for headings */
-        }
-
-        .navbar, .navbar-toggler {
-            border-color: #00FF00; /* Alien green borders */
-        }
-
-        .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
-            color: #00FF00; /* Alien green color for navbar texts */
-        }
-
-        .nav-link:hover {
-            color: #FF4500 !important; /* Orangered color for hover effects */
+            color: #00FF00; 
+            text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
         }
 
         .container {
-            background-color: rgba(0,0,0,0.7); /* Semi-transparent black for readability */
+            background-color: rgba(0,0,0,0.7); 
             padding: 30px;
             border-radius: 5px;
+            border: 1px solid #00FF00; 
         }
 
         footer {
             background-color: black;
-            color: #00FF00; /* Alien green color for footer text */
+            color: #00FF00; 
+            border-top: 3px solid #ff00ff;
         }
 
         canvas {
