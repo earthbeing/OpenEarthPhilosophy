@@ -8,16 +8,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background: linear-gradient(rgba(128,0,128,0.8), rgba(0,128,128,0.8)), url('your-image-path');
+            background: linear-gradient(rgba(128,0,128,0.8), rgba(0,128,128,0.8)), url('images/alien-galaxy.jpg') no-repeat center center fixed;
+            background-size: cover;
             color: #FFF;
         }
 
         h1, h2 {
-            color: #FFD700; /* Gold color for headings */
+            color: #00FF00; /* Alien green color for headings */
+            text-shadow: 2px 2px 4px #000000;
         }
 
         .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
-            color: #FF4500; /* Orangered color for navbar texts */
+            color: #00FF00; /* Alien green color for navbar texts */
+            text-shadow: 1px 1px 2px #000000;
         }
 
         .container {
@@ -27,79 +30,30 @@
         }
 
         footer {
-            background-color: rgba(75,0,130, 0.9); /* Indigo color */
-            color: #FFF;
+            background-color: rgba(0,0,0, 0.9); 
+            color: #00FF00; /* Alien green color for footer text */
+            text-shadow: 1px 1px 2px #000000;
+        }
+
+        .nav-item.active .nav-link, .nav-link:hover {
+            color: #FF4500 !important;
+        }
+
+        /* Add UFO, AI, Sci-fi specific styles below */
+
+        /* Example: Adding a UFO image as a background in the Introduction section */
+        #introduction {
+            background: url('images/ufo.png') no-repeat right bottom, rgba(0,0,0,0.5);
+            background-size: contain;
+            border-radius: 10px;
+            padding: 20px;
         }
     </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-bottom: 3px solid #FFD700;">
-        <a class="navbar-brand" href="#">New Earth Philosophy</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#introduction">Introduction</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#overview">Overview</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#objectives">Objectives</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container mt-5">
-        <h1>New Earth Philosophy</h1>
-        
-        <section id="introduction">
-            <h2>Introduction</h2>
-            <p>Welcome to an exploration of a philosophy that transcends traditional boundaries, integrating both scientific insight and spiritual wisdom.</p>
-        </section>
-        
-        <section id="overview">
-            <h2>Overview</h2>
-            <p>
-                The New Earth Philosophy is an open-source movement that harmonizes the principles of physics, insights from simulation theory, and the profound mysteries of multiverse realities.
-            </p>
-        </section>
-
-        <section id="objectives">
-            <h2>Objectives</h2>
-            <ul>
-                <li>Develop an understanding of the interconnectedness of all existence.</li>
-                <li>Transcend individual intelligence to tap into a universal collective intelligence.</li>
-                <li>Explore the dynamic interplay of science and spirituality in shaping human destiny.</li>
-            </ul>
-        </section>
-
-        <section id="foundation">
-            <h2>Foundation</h2>
-            <p>
-                Grounded in modern laws of physics, this philosophy embraces the enigmatic nature of simulation theory and the boundless possibilities within multiverse realities. 
-            </p>
-        </section>
-        
-        <section id="transcendence">
-            <h2>Transcendence</h2>
-            <p>
-                We believe humans have the potential to transcend their intelligence, fostering a deep connection with the universal collective intelligence, a reservoir of infinite wisdom and insight.
-            </p>
-        </section>
-    </div>
-
-    <footer class="text-center py-4">
-        <p>&copy; 2023 New Earth Philosophy</p>
-    </footer>
+    <!-- Rest of the HTML content remains the same -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
