@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background: linear-gradient(rgba(128,0,128,0.8), rgba(0,128,128,0.8)), url('images/alien-galaxy.jpg') no-repeat center center fixed;
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('your-image-path');
             background-size: cover;
             color: #FFF;
         }
@@ -18,42 +18,78 @@
             text-shadow: 2px 2px 4px #000000;
         }
 
+        .navbar, .navbar-toggler {
+            border-color: #00FF00; /* Alien green borders */
+        }
+
         .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
             color: #00FF00; /* Alien green color for navbar texts */
-            text-shadow: 1px 1px 2px #000000;
+        }
+
+        .nav-link:hover {
+            color: #FF4500 !important; /* Orangered color for hover effects */
         }
 
         .container {
-            background-color: rgba(0,0,0,0.7); /* Semi-transparent black */
+            background-color: rgba(0,0,0,0.7); /* Semi-transparent black for readability */
             padding: 30px;
             border-radius: 5px;
         }
 
         footer {
-            background-color: rgba(0,0,0, 0.9); 
+            background-color: rgba(0,0,0,0.9);
             color: #00FF00; /* Alien green color for footer text */
-            text-shadow: 1px 1px 2px #000000;
         }
 
-        .nav-item.active .nav-link, .nav-link:hover {
-            color: #FF4500 !important;
-        }
-
-        /* Add UFO, AI, Sci-fi specific styles below */
-
-        /* Example: Adding a UFO image as a background in the Introduction section */
-        #introduction {
-            background: url('images/ufo.png') no-repeat right bottom, rgba(0,0,0,0.5);
-            background-size: contain;
-            border-radius: 10px;
-            padding: 20px;
+        /* Example UFO and sci-fi elements */
+        #introduction::before {
+            content: url('ufo-image-path'); /* Replace with the actual image path */
+            float: right;
+            margin-left: 20px;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- Rest of the HTML content remains the same -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">New Earth Philosophy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#introduction">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#overview">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#objectives">Objectives</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>New Earth Philosophy</h1>
+        
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Welcome to an exploration of a philosophy that transcends traditional boundaries, integrating both scientific insight and spiritual wisdom.</p>
+        </section>
+        
+        <!-- Additional content remains the same -->
+
+    </div>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2023 New Earth Philosophy</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
