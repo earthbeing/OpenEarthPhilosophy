@@ -8,78 +8,65 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background: linear-gradient(to right, #ff71ce, #01cdfe, #05ffa1, #b967ff, #ff6bdb);
+            background: linear-gradient(45deg, #ff6e7f 0%, #bfe9ff 100%); /* Vaporwave gradient */
             color: #FFF;
+            font-family: 'Courier New', Courier, monospace; /* Added for a more "retro" feel */
         }
 
-        h1, h2 {
-            color: #ff71ce; /* Pinkish color for headings */
+        h1, h2, h3 {
+            color: #FFD700;
             text-shadow: 2px 2px 4px #000000;
         }
 
-        .navbar, .navbar-toggler {
-            border-color: #05ffa1; /* Light green borders */
+        a {
+            color: #FF4500;
         }
 
-        .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
-            color: #05ffa1; /* Light green color for navbar texts */
-        }
-
-        .nav-link:hover {
-            color: #ff71ce !important; /* Pink color for hover effects */
+        a:hover {
+            color: #FFFFFF;
         }
 
         .container {
-            background-color: rgba(128,128,128,0.2); /* Semi-transparent gray for readability */
+            background-color: rgba(0,0,0,0.7);
             padding: 30px;
             border-radius: 5px;
+            margin-top: 50px;
         }
 
         footer {
-            background-color: rgba(128,128,128,0.5);
-            color: #01cdfe; /* Blue color for footer text */
+            background-color: rgba(0,0,0,0.9);
+            color: #FFD700;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">New Earth Philosophy</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#introduction">Introduction</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#overview">Overview</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#objectives">Objectives</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container mt-5">
+    <div class="container">
         <h1>New Earth Philosophy</h1>
+        <p>Welcome to the New Earth Philosophy repository. This open-source movement is based on modern laws of physics, simulation theory, and multiverse realities, aiming to develop an understanding of how humans can transcend their intelligence to join the universal collective intelligence.</p>
         
-        <section id="introduction">
-            <h2>Introduction</h2>
-            <p>Welcome to an exploration of a philosophy that transcends traditional boundaries, integrating both scientific insight and spiritual wisdom.</p>
-        </section>
+        <h2>Overview</h2>
+        <p>The New Earth Philosophy is a synthesis of science and spirituality, aiming to provide a new framework for the human race to become multi-planetary and a responsible member of the intergalactic community of species. It promotes unity, cooperation, and exploration while being rooted in scientific principles, inclusivity, and tolerance.</p>
         
-        <!-- Additional content remains the same -->
+        <!-- Other content sections -->
 
+        <h3>AI Ethical Use</h3>
+        <p>Ensure the use of AI aligns with our <a href="#safety-guidelines">Safety Guidelines</a>. The AI should respect ethical boundaries, promote peace, understanding, and should not in any way promote discrimination, violence, or hatred.</p>
+
+        <h2>Contribute</h2>
+        <p>We welcome contributions from individuals of all backgrounds and expertise. Feel free to fork this repository and submit pull requests for any enhancements, corrections, or additions you propose.</p>
+
+        <h2>License</h2>
+        <p>This project is open-source, under the <a href="LICENSE" target="_blank">MIT License</a>.</p>
     </div>
 
-    <footer class="text-center py-4">
+    <footer>
         <p>&copy; 2023 New Earth Philosophy</p>
     </footer>
 
