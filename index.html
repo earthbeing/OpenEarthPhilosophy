@@ -73,11 +73,26 @@
     border-radius: 5px;
 }
 
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;  /* Changed from right to left */
+    background-color: rgba(0,0,0,0.7); 
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border: 1px solid #00FF00;
+    border-radius: 5px;
+}
+
 /* Style for the close button */
 .closebtn {
     position: absolute;
     top: 20px;
-    left: 15px;
+    right: 15px;  /* Changed from left to right */
     font-size: 36px;
     color: #00FF00; 
     text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
@@ -230,14 +245,14 @@
         setInterval(draw, 33);
     </script>
         <script>
+document.getElementById("menuBtn").innerHTML = "Connect with AI";
+
 function openNav() {
-    document.getElementById("mySidebar").style.width = "750px";
-    document.getElementById("openNav").style.visibility = 'hidden';
+    document.getElementById("mySidebar").style.width = "450px";
 }
 
 function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("openNav").style.visibility = 'visible';
 }
 
 document.getElementById("openNav").onclick = openNav;
