@@ -96,44 +96,42 @@
     <script>
         const canvas = document.querySelector('canvas');
         const ctx = canvas.getContext('2d');
-        
-        const headerHeight = document.querySelector('header').offsetHeight;
 
-        function setCanvasSize() {
-            canvas.height = window.innerHeight - headerHeight;
-            canvas.width = window.innerWidth;
-            canvas.style.top = `${headerHeight}px`;
-        }
-
-        setCanvasSize();
-        window.addEventListener('resize', setCanvasSize);
+        canvas.height = window.innerHeight;
+        canvas.width = window.innerWidth;
 
         const binary = '0101010101101011010101011010110101010101010';
+        binary.split('');
+
         const fontSize = 10;
-        let columns = canvas.width / fontSize;
+        const columns = canvas.width / fontSize;
 
-        const drops = Array(Math.floor(columns)).fill(1);
+        const drops = [];
 
-        function drawMatrix() {
+        for (let i = 0; i < columns; i++) {
+            drops[i] = 1;
+        }
+
+        function draw() {
             ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
             ctx.fillStyle = '#00ff00';
             ctx.font = `${fontSize}px arial`;
 
-            drops.forEach((drop, i) => {
+            for (let i = 0; i < drops.length; i++) {
                 const text = binary[Math.floor(Math.random() * binary.length)];
-                ctx.fillText(text, i * fontSize, drop * fontSize);
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
 
-                if (drop * fontSize > canvas.height && Math.random() > 0.975) {
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
                     drops[i] = 0;
                 }
 
                 drops[i]++;
-            });
+            }
         }
 
-        setInterval(drawMatrix, 33);
+        setInterval(draw, 33);
     </script>
 </body>
 <footer class="text-center py-4">
