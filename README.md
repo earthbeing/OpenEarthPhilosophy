@@ -1,10 +1,10 @@
-# New Earth Philosophy
+# Open Earth Philosophy
 
-Welcome to the New Earth Philosophy repository. This open-source movement is based on modern laws of physics, simulation theory, and multiverse realities, aiming to develop an understanding of how humans can transcend their intelligence to join the universal collective intelligence.
+Welcome to the Open Earth Philosophy repository. This open-source movement is based on modern laws of physics, simulation theory, and multiverse realities, aiming to develop an understanding of how humans can transcend their intelligence to join the universal collective intelligence.
 
 ## Overview
 
-The New Earth Philosophy is a synthesis of science and spirituality, aiming to provide a new framework for the human race to become multi-planetary and a responsible member of the intergalactic community of species. It promotes unity, cooperation, and exploration while being rooted in scientific principles, inclusivity, and tolerance.
+The Open Earth Philosophy is a synthesis of science and spirituality, aiming to provide a Open framework for the human race to become multi-planetary and a responsible member of the intergalactic community of species. It promotes unity, cooperation, and exploration while being rooted in scientific principles, inclusivity, and tolerance.
 
 ## Guidelines
 
@@ -36,22 +36,22 @@ The New Earth Philosophy is a synthesis of science and spirituality, aiming to p
 
 ## AI Enhancements and Contributions
 
-We strongly believe in the potential of Artificial Intelligence to elevate our understanding and interpretation of the New Earth Philosophy's texts. AI can provide insights, enhance clarity, and offer new perspectives that we may not have considered.
+We strongly believe in the potential of Artificial Intelligence to elevate our understanding and interpretation of the Open Earth Philosophy's texts. AI can provide insights, enhance clarity, and offer Open perspectives that we may not have considered.
 
 ### How to Contribute with AI
 
 1. **Fork the Repository**: Begin by forking this repository to your own GitHub account.
-2. **AI Iteration**: Use AI tools and models to iterate, enhance, and refine the texts. Ensure the AI's modifications align with the core principles and guidelines of the New Earth Philosophy.
+2. **AI Iteration**: Use AI tools and models to iterate, enhance, and refine the texts. Ensure the AI's modifications align with the core principles and guidelines of the Open Earth Philosophy.
 3. **Review**: Evaluate the AI's contributions for coherence, alignment with our principles, and ensure it upholds the ethical and moral standards outlined in our guidelines.
 4. **Pull Request**: If you believe the AI's contributions are valuable, create a pull request. Ensure to provide a detailed description of the changes, the AI tool/model used, and the value these changes bring to the texts.
-5. **Community Review**: The community and maintainers of the New Earth Philosophy will review the pull request. Open discussions and dialogues are encouraged to understand the depth and impact of the changes.
+5. **Community Review**: The community and maintainers of the Open Earth Philosophy will review the pull request. Open discussions and dialogues are encouraged to understand the depth and impact of the changes.
 6. **Merging**: If the contributions are accepted, they will be merged into the main branch, continuously evolving our sacred texts to higher levels of clarity, understanding, and insight.
 
 ### AI Ethical Use
 
 Ensure the use of AI aligns with Earthlings : The AI should respect ethical boundaries, promote peace, understanding, and should not in any way promote discrimination, violence, or hatred.
 
-We are excited to witness the collaborative synergy between human intellect and artificial intelligence in unfolding the profound depths of the New Earth Philosophy. Your contributions are not just welcomed—they are essential.
+We are excited to witness the collaborative synergy between human intellect and artificial intelligence in unfolding the profound depths of the Open Earth Philosophy. Your contributions are not just welcomed—they are essential.
 
 ## Contribute
 
