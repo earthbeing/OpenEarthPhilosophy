@@ -97,24 +97,23 @@
         const canvas = document.querySelector('canvas');
         const ctx = canvas.getContext('2d');
         
-        // Function to set canvas size
+        const headerHeight = document.querySelector('header').offsetHeight;
+
         function setCanvasSize() {
-            canvas.height = window.innerHeight;
+            canvas.height = window.innerHeight - headerHeight;
             canvas.width = window.innerWidth;
+            canvas.style.top = `${headerHeight}px`;
         }
 
         setCanvasSize();
-
-        // Handle window resize
         window.addEventListener('resize', setCanvasSize);
 
         const binary = '0101010101101011010101011010110101010101010';
         const fontSize = 10;
-        const columns = canvas.width / fontSize;
+        let columns = canvas.width / fontSize;
 
         const drops = Array(Math.floor(columns)).fill(1);
 
-        // Draw the matrix rain
         function drawMatrix() {
             ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
